@@ -38,7 +38,7 @@ const AddToCart = () => {
     <div className='heroCart-container'>
       <div className='hero-cart flex justify-center items-center bg-purple-200 mb-0 flex-col md:flex-row'>
         <div className='cart flex flex-wrap justify-start items-center w-full md:w-3/5 gap-8 md:gap-4 p-4'>
-          <div className='image relative w-1/4 h-96 flex-shrink-0'>
+          <div className='image relative w-full md:w-1/4 h-96 flex-shrink-0'>
             <img src={data.src} alt='smartwatch' className='w-full h-full' />
             <div className='stock absolute top-1/12 left-2/3 w-14 h-14 bg-purple-800 rounded-full flex justify-center items-center'>
               <p className='in text-white text-sm font-bold'>in stock</p>

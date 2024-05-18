@@ -6,7 +6,8 @@ const HeroSlide = () => {
     const slideImages = [Sneaker1, Sneaker2, Curology2]
   return (
     <div className='hero-slide flex'>
-        <div className="heroFlex flex flex-col md:flex-row justify-between items-center md:items-center p-1 md:p-4 pt-20 md:pt-18 ">
+        <div className="heroFlex flex flex-col md:flex-row justify-between items-start
+        md:items-center p-4 md:p-4 pt-20 md:pt-18 ">
             <div className="textArea flex flex-col items-start justify-center pl-0 md:pl-1 h-19 gap-0">
                 <h1 className="slide-head text-purple-700 mb-4">
                     Get Latest Deals

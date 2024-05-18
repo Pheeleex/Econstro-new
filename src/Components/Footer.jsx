@@ -12,7 +12,7 @@ const Footer = () => {
         <h2 className="text-lg font-semibold">New to constro</h2>
         <p className="text-sm font-light mb-2">Subscribe to our newsletter and updates</p>
         <div className='input flex'>
-          <input type="email" className="w-64 h-10 rounded-lg bg-gray-300 px-2 mr-0" placeholder="Your email" />
+          <input type="email" className="max-w-60 h-10 rounded-lg bg-gray-300 px-2 mr-0" placeholder="Your email" />
           <button className="purple ml-0 h-10 bg-pink-500 text-white px-4 rounded-lg">Subscribe</button>
         </div>
       </div>
