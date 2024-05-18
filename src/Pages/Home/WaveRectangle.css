@@ -1,0 +1,54 @@
+
+.wave-container {
+    position: relative;
+    margin-top: 4rem;
+  }
+  
+  .wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1
+  }
+  
+  .numbers {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .number-tag {
+    text-align: center;
+  }
+  
+  .number-tag h2 {
+    font-size: 50px;
+    margin-bottom: 0px;
+    color: #FFF079;
+    font-weight: 700;
+
+  }
+
+  .number-tag span{
+    color: #fff;
+  }
+
+
+  @media (max-width: 800px) {
+    .number-tag h2 {
+      font-size: 35px;
+      margin-top: 38px;
+    }
+  }
+
+  @media (max-width:440px) {
+    .number-tag h2 {
+      font-size: 25px;
+      margin-top: 48px;
+    }
+  }
+  

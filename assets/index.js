@@ -1,0 +1,42 @@
+import AppleWatch from './images/Applewatch.png'
+import Bluesneakers from './images/bluesneakers.png'
+import Controller from './images/controller.png'
+import Curology from './images/curology.png'
+import Curology2 from './images/curology2.png'
+import Earphones from './images/earphones.png'
+import Facecap from './images/facecap.png'
+import Headphone from './images/headphone.png'
+import Item1 from './images/Item1.png'
+import Logo1 from './images/logo1.png'
+import RedSneakers from './images/Red sneakers.png'
+import Smartphone from './images/smartphone.png'
+import Smartwatch from './images//smartwatch.png'
+import Sneaker1 from './images/sneaker1.png'
+import Sneaker2 from './images/sneaker2.png'
+import AccountIcon from './images/Icons/AccountIcon'
+import ApplianceIcon from './images/Icons/ApplianceIcon'
+import BabyProductIcon from './images/Icons/BabyProductIcon'
+import StockIcon from './images/Icons/StockIcon'
+import CartIcon from './images/Icons/CartIcon'
+import ComputerIcon from './images/Icons/ComputerIcon'
+import DoorDelivery from './images/Icons/DoorDelivery'
+import ElectronicsIcon from './images/Icons/ElecronicsIcon'
+import FashionIcon from './images/Icons/FashionIcon'
+import GamingIcon from './images/Icons/GamingIcon'
+import HealthBeautyIcon from './images/Icons/HealthBeautyIcon'
+import loveIcon from './images/Icons/loveIcon'
+import OthersIcon from './images/Icons/OthersIcon'
+import PickupStation from './images/Icons/PickupStation'
+import PhoneIcon from './images/Icons/PhoneIcon'
+import Returncon from './images/Icons/ReturnIcon'
+import SportIcon from './images/Icons/SportIcon'
+import StarsIcon from './images/Icons/StarsIcon'
+import wave from './images/Icons/wave'
+import Ellipse from './images/Icons/Ellipse'
+
+
+export{AppleWatch, Bluesneakers, Controller, Curology, Curology2, Earphones, Facecap, Headphone, Item1,
+Logo1, RedSneakers, Smartphone, Smartwatch, Sneaker1, Sneaker2, StockIcon, AccountIcon, ApplianceIcon,
+BabyProductIcon, wave, SportIcon, StarsIcon, Returncon, PhoneIcon, PickupStation, OthersIcon, loveIcon, 
+HealthBeautyIcon, CartIcon, ComputerIcon, GamingIcon, FashionIcon, DoorDelivery, ElectronicsIcon, Ellipse
+}
