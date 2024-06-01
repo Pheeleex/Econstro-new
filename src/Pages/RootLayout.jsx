@@ -3,11 +3,11 @@ import Navbar from '../Components/Navbar'
 import { Outlet } from 'react-router-dom'
 import Footer from '../Components/Footer'
 
-const RootLayout = () => {
+const RootLayout = ({savedInCart}) => {
   return (
     <div>
       <div className='purple purple-box'></div>
-        <Navbar />
+        <Navbar savedInCart={savedInCart} />
         <main>
             <Outlet />
         </main>

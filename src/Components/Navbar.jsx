@@ -1,20 +1,20 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { AccountIcon, CartIcon, Logo1 } from '../../assets';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import { CartContext } from './CartContext';
 
 const Navbar = () => {
-  const [active, setActive] = useState('')
-  const [cartItems, setCartItems] = useState([])
+  const navigate = useNavigate()
+  const {cartItems} = useContext(CartContext)
+ 
 
-  useEffect(() => {
-    const storedItems = JSON.parse(localStorage.getItem('cartItems') || '[]')
-    setCartItems(storedItems)
-  }, [cartItems])
+  const handleCart = () => {
+    navigate('/Cart');
+  }
 
-  return (
-   
+  return ( 
       <div className="nav flex items-center justify-between py-4 px-4 bg-white shadow-lg relative z-2">
         <Link to="/">
           <img src={Logo1} className="max-w-20" alt="Logo" />
@@ -47,6 +47,7 @@ const Navbar = () => {
             <CartIcon 
               color={cartItems.length > 0 ? 'yellow' : 'black'} 
               itemCount={cartItems.length}
+              onClick = {handleCart}
           />
             </div>
             <span className='hidden md:block'>Cart</span>

@@ -33,6 +33,9 @@ const AddToCart = () => {
       console.log('Navigating...');
     };
     
+    const handleCheckOut = () => {
+      navigate('/CheckOut', {state: {product: data}})
+    }
 
   return (
     <div className='heroCart-container'>
@@ -67,7 +70,7 @@ const AddToCart = () => {
                 </div>
                 <div className='cart-btns flex gap-4 flex-col md:flex-row'>
                   <div className='cart-btn bg-purple-800 text-white w-28 h-8 flex justify-center 
-                  items-center rounded-lg cursor-pointer'>Buy now</div>
+                  items-center rounded-lg cursor-pointer' onClick={handleCheckOut} >Buy now</div>
                   <div className='cart-btn bg-purple-800 text-white w-28 h-8 flex justify-center 
                   items-center rounded-lg cursor-pointer' onClick={addToCartSuccess}>Add to Cart</div>
                 </div>

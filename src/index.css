@@ -213,6 +213,15 @@ opacity: 0px;
     flex-wrap: wrap;
 }
 
+.image-cart{
+  height: 283px;
+}
+
+.grey{
+  color: rgb(128, 126, 126);
+  background-color: rgb(185, 183, 183);
+}
+
   
   
   

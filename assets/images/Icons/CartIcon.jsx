@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const CartIcon = ({ color = 'black', itemCount = 0 }) => (
+const CartIcon = ({ color = '', itemCount = 0 }) => (
   <div className="relative">
     {itemCount > 0 && (
       <span className="absolute top-0 left-0 bg-red-500 text-yellow-500 rounded-full text-xs px-1">

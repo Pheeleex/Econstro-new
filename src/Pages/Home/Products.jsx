@@ -31,8 +31,9 @@ const Products = () => {
     <div className="products">
       <h2 className='deals ml-8 mb-8 text-2xl font-bold'>Latest Deals</h2>
       <div className='card-container flex flex-col md:flex-row'>
-        {currentCards.map((item) => (
-          <div className='card-desc flex flex-col'>
+        {currentCards.map((item, index) => (
+          <div key={index}
+            className='card-desc flex flex-col'>
             <div className="card" onClick={() => handleCardClick(item)}>
               <div className="flex justify-between w-full">
                 <StarsIcon />
